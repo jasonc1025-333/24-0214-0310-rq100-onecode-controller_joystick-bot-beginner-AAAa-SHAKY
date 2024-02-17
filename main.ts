@@ -132,6 +132,11 @@ if (true) {
 setup_BotAndController_Fn()
 }
 basic.forever(function () {
+    quest_Note_5.quest_Show_String_For_Note_Big_Fn(
+    "Variables declared in 'main.ts' better than in 'main_backend.ts' (to prevent redundant var declarations)"
+    )
+})
+basic.forever(function () {
     if (device_Type_Controller_Bool && !(device_Mode_Edit_GroupChannelNum_Bool)) {
         quest_Note_3.quest_Show_String_For_Note_Big_Fn(
         "Send Network Message to 'B'ot:: Controller_Joystick: Joystick"
