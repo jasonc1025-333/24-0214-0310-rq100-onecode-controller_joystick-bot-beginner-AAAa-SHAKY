@@ -1,6 +1,6 @@
 {
     "name": "24-0214-0310-RQ100-OneCode-Controller_Joystick-Bot-Beginner-FINAL--23-1006-1820-rq100-questcustomblocks",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*",
