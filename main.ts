@@ -95,6 +95,14 @@ screen_IconMessage_Func("error")
         }
     }
 })
+let motor_Power_Gear_Number_Int = 0
+let controller_Joystick__Polar_OriginAtCenter__RayLength_Int = 0
+let controller_Joystick__Polar_OriginAtCenter__AngleDegree_Int = 0
+let motor_Power_Half_Current = 0
+let motor_Power_Full_Current_Neg = 0
+let device_Type_Bot_Bool = false
+let network_GroupChannel_MyBotAndController_Base0_Int = 0
+let _codeComment_AsText = ""
 // //jwc o let motor_Power_Gear_Number_Int = 0
 // //jwc o let controller_Joystick__Polar_OriginAtCenter__RayLength_Int = 0
 // //jwc o let controller_Joystick__Polar_OriginAtCenter__AngleDegree_Int = 0
