@@ -1099,26 +1099,7 @@ basic.forever(function () {
     }
 })
 
-basic.forever(function () {
-    if (device_Type_Controller_Bool && !(device_Mode_Edit_GroupChannelNum_Bool)) {
-        quest_Note_3.quest_Show_String_For_Note_Big_Fn(
-            "Send Network Message to 'B'ot:: Controller_Joystick: Buttons"
-        )
-        quest_Note_5.quest_Show_String_For_Note_Big_Fn(
-            "Network Message Max_Character_Length: 19"
-        )
-        if (joystickbit.getButton(joystickbit.JoystickBitPin.P12)) {
-            motor_Power_Gear_Number_Int = 1
-            radio.sendString("gear_lo")
-            led.plot(2, 1)
-        } else if (joystickbit.getButton(joystickbit.JoystickBitPin.P13)) {
-            motor_Power_Gear_Number_Int = 2
-            radio.sendString("gear_hi")
-            led.plot(2, 3)
-        }
-        network__CpuCycle_Post__Management_Func()
-    }
-})
+
 basic.forever(function () {
     quest_Note_3.quest_Show_String_For_Note_Big_Fn(
         "Block Coding Special Notes"
