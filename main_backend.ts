@@ -1029,11 +1029,11 @@ radio.onReceivedValue(function (name, value) {
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 })
-let controller_Joystick__Polar_OriginAtCenter__RayLength_Int = 0
+////jwc o let controller_Joystick__Polar_OriginAtCenter__RayLength_Int = 0
 let motor_Power_R_Neg100toPos100_Int = 0
 let motor_Power_L_Neg100toPos100_Int = 0
-let motor_Power_Gear_Number_Int = 0
-let controller_Joystick__Polar_OriginAtCenter__AngleDegree_Int = 0
+////jwc o let motor_Power_Gear_Number_Int = 0
+////jwc o let controller_Joystick__Polar_OriginAtCenter__AngleDegree_Int = 0
 let network_Message_Received_Ok_Bool = false
 let controller_Joystick__Polar_OriginAtCenter__RayLength__Deadzone_AsIdle__INT = 0
 let controller_Joystick__Polar_OriginAtCenter__AngleDegree__AsIncremented_By__Int = 0
@@ -1051,13 +1051,13 @@ let _debug_Serial_Print_Bool = false
 let network_GroupChannel_MyBotAndController_Base0__Digit_Ones__Int = 0
 let network_GroupChannel_MyBotAndController_Base0__Digit_Tens__Int = 0
 let device_Type_Controller_Bool = false
-let motor_Power_Half_Current = 0
-let motor_Power_Full_Current_Neg = 0
+////jwc o let motor_Power_Half_Current = 0
+////jwc o let motor_Power_Full_Current_Neg = 0
 let motor_Power_Full_Current_Pos = 0
 let motor_Power_ZERO_INT = 0
 let motor_Power_Gear_02_MAX = 0
 let motor_Power_Gear_01_MAX = 0
-let device_Type_Bot_Bool = false
+////jwc o let device_Type_Bot_Bool = false
 let controller_Joystick__Cartesian_OriginAtCenter__Y_Int = 0
 let controller_Joystick__Cartesian_OriginAtCenter__X_Int = 0
 let _local_converted_value_int_out = 0
@@ -1068,8 +1068,8 @@ let network_Throttle_MilliSec_Per_CpuCycle_Start = 0
 let screenBrightness_HI_DEFAULT_INT = 0
 let screenBrightness_LO_INT = 0
 let device_Mode_Edit_GroupChannelNum_Bool = false
-let network_GroupChannel_MyBotAndController_Base0_Int = 0
-let _codeComment_AsText = ""
+////jwc o let network_GroupChannel_MyBotAndController_Base0_Int = 0
+////jwc o let _codeComment_AsText = ""
 basic.forever(function () {
     if (device_Type_Controller_Bool || device_Type_Bot_Bool) {
         if (!(device_Mode_Edit_GroupChannelNum_Bool) && !(device_Mode_Show_Alt_GroupChannelNum_Bool)) {
