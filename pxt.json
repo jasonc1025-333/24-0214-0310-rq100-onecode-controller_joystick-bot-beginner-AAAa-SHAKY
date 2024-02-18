@@ -1,5 +1,5 @@
 {
-    "name": "24-0214-0310-RQ100-OneCode-Controller_Joystick-Bot-Beginner-FINAL--23-1006-1820-rq100-questcustomblocks",
+    "name": "24-0214-0310-RQ100-OneCode-Controller_Joystick-Bot-Beginner",
     "version": "0.1.4",
     "description": "",
     "dependencies": {
@@ -29,5 +29,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
