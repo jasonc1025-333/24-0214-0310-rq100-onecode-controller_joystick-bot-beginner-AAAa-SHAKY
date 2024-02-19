@@ -1050,13 +1050,13 @@ let device_Mode_Show_Alt_GroupChannelNum_Bool = false
 let _debug_Serial_Print_Bool = false
 let network_GroupChannel_MyBotAndController_Base0__Digit_Ones__Int = 0
 let network_GroupChannel_MyBotAndController_Base0__Digit_Tens__Int = 0
-let device_Type_Controller_Bool = false
+////jwc o let device_Type_Controller_Bool = false
 ////jwc o let motor_Power_Half_Current = 0
 ////jwc o let motor_Power_Full_Current_Neg = 0
-let motor_Power_Full_Current_Pos = 0
-let motor_Power_ZERO_INT = 0
-let motor_Power_Gear_02_MAX = 0
-let motor_Power_Gear_01_MAX = 0
+////jwc o let motor_Power_Full_Current_Pos = 0
+////jwc o let motor_Power_ZERO_INT = 0
+////jwc o let motor_Power_Gear_02_MAX = 0
+////jwc o let motor_Power_Gear_01_MAX = 0
 ////jwc o let device_Type_Bot_Bool = false
 let controller_Joystick__Cartesian_OriginAtCenter__Y_Int = 0
 let controller_Joystick__Cartesian_OriginAtCenter__X_Int = 0
@@ -1067,7 +1067,7 @@ let network_Throttle_MilliSec_Per_CpuCycle_End = 0
 let network_Throttle_MilliSec_Per_CpuCycle_Start = 0
 let screenBrightness_HI_DEFAULT_INT = 0
 let screenBrightness_LO_INT = 0
-let device_Mode_Edit_GroupChannelNum_Bool = false
+////jwc o let device_Mode_Edit_GroupChannelNum_Bool = false
 ////jwc o let network_GroupChannel_MyBotAndController_Base0_Int = 0
 ////jwc o let _codeComment_AsText = ""
 basic.forever(function () {
@@ -1202,7 +1202,9 @@ basic.forever(function () {
 // jwc moved to 'main.ts' and archived below
 
 ////jwc o if (true) {
-////jwc o     _codeComment_AsText = "Set GroupChannel-# for Both Bot & Controller-Remote."
+////jwc o     quest_Note_2.quest_Show_String_For_Note_Small_Fn(
+////jwc o         "Set GroupChannel_# for Both Bot & Controller_Joystick"
+////jwc o     )
 ////jwc o     network_GroupChannel_MyBotAndController_Base0_Int = 1
 ////jwc o     setup_Network_Fn()
 ////jwc o     setup_BotAndController_Fn()

@@ -101,9 +101,16 @@ let controller_Joystick__Polar_OriginAtCenter__RayLength_Int = 0
 let controller_Joystick__Polar_OriginAtCenter__AngleDegree_Int = 0
 let motor_Power_Half_Current = 0
 let motor_Power_Full_Current_Neg = 0
-let device_Type_Bot_Bool = false
 let network_GroupChannel_MyBotAndController_Base0_Int = 0
 let _codeComment_AsText = ""
+let device_Type_Bot_Bool = false
+let device_Type_Controller_Bool = false
+let device_Mode_Edit_GroupChannelNum_Bool = false
+let motor_Power_Full_Current_Pos = 0
+let motor_Power_ZERO_INT = 0
+let motor_Power_Gear_02_MAX = 0
+let motor_Power_Gear_01_MAX = 0
+
 // //jwc o let motor_Power_Gear_Number_Int = 0
 // //jwc o let controller_Joystick__Polar_OriginAtCenter__RayLength_Int = 0
 // //jwc o let controller_Joystick__Polar_OriginAtCenter__AngleDegree_Int = 0
@@ -127,7 +134,9 @@ let _codeComment_AsText = ""
 // //jwc o let network_GroupChannel_MyBotAndController_Base0_Int = 0
 // //jwc o let _codeComment_AsText = ""
 if (true) {
-    _codeComment_AsText = "Set GroupChannel-# for Both Bot & Controller-Remote."
+    quest_Note_2.quest_Show_String_For_Note_Small_Fn(
+        "Set GroupChannel_# for Both Bot & Controller_Joystick"
+    )
     network_GroupChannel_MyBotAndController_Base0_Int = 1
     setup_Network_Fn()
     setup_BotAndController_Fn()
